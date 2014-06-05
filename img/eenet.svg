@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200"
+   height="100"
+   id="svg3349"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="Nowy dokument 5">
+  <defs
+     id="defs3351" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="-55.038421"
+     inkscape:cy="140.54558"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="817"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3354">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-952.36218)">
+    <g
+       id="g3368"
+       transform="translate(155.05842,5.0507627)" />
+    <g
+       style="font-size:28.99044609px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:4.24709892px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#ffff00;stroke-width:3;stroke-miterlimit:4;font-family:Allerta;-inkscape-font-specification:Allerta"
+       id="text3580">
+      <path
+         d="m 8.615865,964.00783 25.778305,0 0,11.58458 -14.506819,0 0,20.14257 10.43656,0 0,12.31512 -10.43656,0 0,21.0819 14.506819,0 0,11.5846 -25.778305,0 0,-76.70877"
+         style="font-size:104.36560822px;stroke:#ffff00;font-family:League Gothic;-inkscape-font-specification:League Gothic"
+         id="path4353" />
+      <path
+         d="m 44.865697,964.00783 25.778305,0 0,11.58458 -14.506819,0 0,20.14257 10.436561,0 0,12.31512 -10.436561,0 0,21.0819 14.506819,0 0,11.5846 -25.778305,0 0,-76.70877"
+         style="font-size:104.36560822px;stroke:#ffff00;font-family:League Gothic;-inkscape-font-specification:League Gothic"
+         id="path4355" />
+      <path
+         d="m 93.013209,1000.7445 -0.939291,-3.54841 -0.626194,0 0,43.52051 -10.332195,0 0,-76.70877 10.019099,0 10.958392,39.97207 0.93929,3.5484 0.62619,0 0,-43.52047 10.3322,0 0,76.70877 -10.0191,0 -10.958391,-39.9721"
+         style="font-size:104.36560822px;stroke:#ffff00;font-family:League Gothic;-inkscape-font-specification:League Gothic"
+         id="path4357" />
+      <path
+         d="m 126.53813,964.00783 25.7783,0 0,11.58458 -14.50682,0 0,20.14257 10.43657,0 0,12.31512 -10.43657,0 0,21.0819 14.50682,0 0,11.5846 -25.7783,0 0,-76.70877"
+         style="font-size:104.36560822px;stroke:#ffff00;font-family:League Gothic;-inkscape-font-specification:League Gothic"
+         id="path4359" />
+      <path
+         d="m 158.82206,975.59241 0,-11.58458 32.56207,0 0,11.58458 -10.64529,0 0,65.12419 -11.27149,0 0,-65.12419 -10.64529,0"
+         style="font-size:104.36560822px;stroke:#ffff00;font-family:League Gothic;-inkscape-font-specification:League Gothic"
+         id="path4361" />
+    </g>
+  </g>
+</svg>
