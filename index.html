@@ -75,6 +75,7 @@
 						<li>Borys Popławski</li>
 						<li>Robert Tomkowski</li>
 					</ul>
+					<p>pod kierunkiem dra Janusza Jabłonowskiego</p>
 				</section>
 				
 				<section>
@@ -212,12 +213,82 @@
 					<img src="img/zasoby3.png" class="normal">
 				</section>
 
-				<section>
-					<h1>Efekty pracy</h1>
-					<p>Jak napisać wtyczkę</p>
-				</section>
 
-				<section>
+
+
+<section>
+
+    <h2><small>Tworzenie nowych wtyczek</small></h2>
+
+    <p>Po pierwsze należy stworzyć nową aplikację w django:</p>
+
+    <pre><code data-trim>
+
+python manage.py startapp nazwa_aplikacji
+
+    </code></pre>
+
+</section>
+
+<section>
+
+    Następnie dodać do aplikacji plik konfiguracyjny:
+
+    <pre><code data-trim style="max-height: 600px">
+prefix_url = "example"
+static_files = {
+    'js': {
+        'example/js/': ['main.js', ]
+    },
+    'css': {
+        'example/css/': ['main.css', ]
+    },
+    'html': {
+        'example/html/': [
+            ('main.html', 'exampleMainController', 'main', ),
+        ]
+    }
+}
+
+permissions = {
+    "examplePermission": "Allows blabla.",
+}
+
+access_for_everyone = True
+tiles_templates = ['example/html/maintile.html', ]
+angular_module = 'eenetExample'
+    </code></pre>
+
+</section>
+
+<section>
+
+    Ponadto należy dodać w jakimś pliku .js (np. main.js) definicje modułu
+
+    angularjs oraz co najmniej jeden controller np:
+
+    <pre><code data-trim>
+        angular.module('eenetExample', [])
+        .controller('exampleMainController', function($scope, $resource) {
+            $scope.myList = [];
+            $resource('/example/mylistview/ ').get(
+                function(data) {
+                    $scope.myList = data;
+                },
+                errorFunction
+            );
+        });
+    </code></pre>
+
+</section>
+
+<section>
+
+    <p>Pozostaje napisać już tylko logikę (funkcjonalność) oraz interfejs aplikacji.</p>
+
+</section>
+
+<section>
 					<h1>Happy end</h1>
 					<img src="img/ending.jpg" class="normal">
 				</section>
